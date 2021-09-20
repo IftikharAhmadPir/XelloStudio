@@ -1,4 +1,5 @@
 ﻿using System;
+using Xello.BusinessLayer;
 
 namespace Xello.Starter
 {
@@ -6,6 +7,8 @@ namespace Xello.Starter
     {
         static void Main(string[] args)
         {
+            var UserCreds = new UserCredentialsFunctions();
+            UserCreds.createUser();
             Console.WriteLine("Hello World!");
         }
     }
