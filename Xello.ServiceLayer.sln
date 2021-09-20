@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xello.ServiceLayer", "Xello.ServiceLayer\Xello.ServiceLayer.csproj", "{118062BC-07E2-4BFA-A087-93346DBADA31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xello.ServiceLayer", "Xello.ServiceLayer\Xello.ServiceLayer.csproj", "{118062BC-07E2-4BFA-A087-93346DBADA31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xello.BusinessLayer", "Xello.BusinessLayer\Xello.BusinessLayer.csproj", "{06AD4135-D5B4-4F38-AAD3-962D732CE317}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xello.BusinessLayer", "Xello.BusinessLayer\Xello.BusinessLayer.csproj", "{06AD4135-D5B4-4F38-AAD3-962D732CE317}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xello.DataLayer", "Xello.DataLayer\Xello.DataLayer.csproj", "{8A502DEC-7247-4321-84CD-8D60983F2AA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xello.DataLayer", "Xello.DataLayer\Xello.DataLayer.csproj", "{8A502DEC-7247-4321-84CD-8D60983F2AA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xello.Starter", "Xello.Starter\Xello.Starter.csproj", "{52A10D75-C27A-42E0-B9B9-FF0B435283E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xello.InterfaceLayer", "Xello.InterfaceLayer\Xello.InterfaceLayer.csproj", "{D3FEEE58-F45B-4932-A885-3BA5BE3A88B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{8A502DEC-7247-4321-84CD-8D60983F2AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A502DEC-7247-4321-84CD-8D60983F2AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A502DEC-7247-4321-84CD-8D60983F2AA4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{52A10D75-C27A-42E0-B9B9-FF0B435283E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{52A10D75-C27A-42E0-B9B9-FF0B435283E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{52A10D75-C27A-42E0-B9B9-FF0B435283E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{52A10D75-C27A-42E0-B9B9-FF0B435283E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3FEEE58-F45B-4932-A885-3BA5BE3A88B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3FEEE58-F45B-4932-A885-3BA5BE3A88B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3FEEE58-F45B-4932-A885-3BA5BE3A88B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3FEEE58-F45B-4932-A885-3BA5BE3A88B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
