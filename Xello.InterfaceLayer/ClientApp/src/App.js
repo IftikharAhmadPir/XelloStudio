@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Signup } from './components/Signup';
 
 import './custom.css'
 
@@ -7,9 +8,9 @@ export default class App extends Component {
 
   render () {
     return (
-      <>
-      <h1>Start of Page</h1>
-      </>
+      <div>
+        <Signup/>
+      </div>
     )
   }
 }
